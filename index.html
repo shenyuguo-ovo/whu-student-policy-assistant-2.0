@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>武汉大学学生事务智能助手</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="box">
+        <h1>武汉大学学生事务智能咨询助手</h1>
+        <p class="intro">请输入有关综合测评、奖学金、竞赛认定、评奖评优或学籍管理的问题。</p>
+        <div id="chat" aria-live="polite"></div>
+        <div class="input-row">
+            <input id="q" type="text" placeholder="例如：综合测评竞赛加分需要什么材料？" autocomplete="off">
+            <button id="ask-button" type="button" onclick="ask()">查询</button>
+        </div>
+        <p class="note">提示：当前为原型系统，知识库中的示例内容不等同于学校现行正式政策，请以学校/学院最新官方通知为准。</p>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
